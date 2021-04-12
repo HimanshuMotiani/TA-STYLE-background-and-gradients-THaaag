@@ -65,7 +65,6 @@ body{
     align-items: center;
 }
 .center{
-    display: flex;
     justify-content: center;
     align-items: center;
 }
@@ -94,18 +93,19 @@ body{
 } */
 
   .switch{
-    display: inline-block;
     vertical-align: middle;
-    width: 60px;
-    height: 34px;
-    background-color: #56c3a4;
+    width: 56px;
+    height: 28px;
+    background:linear-gradient(to right,#4bb2ba,#5dcf97);
     border-radius: 20px;
+    margin-left: 16px;
+    padding-left: 4px;
   }
   .slider{
     background-color: #262a45;
     cursor: pointer;
-    width: 20px;
-    height: 20px;
+    width: 24px;
+    height: 24px;
     border-radius: 50%;
   }
   .hero{
@@ -116,7 +116,7 @@ body{
   }
   .box{
       background-color: #262b43;
-      width: 24%;
+      flex:0 1 24%;
       height: 280px;
       padding: 40px 0;
       border-radius: 8px;
@@ -126,6 +126,8 @@ body{
     border-top: solid 4px transparent;
     border-image-slice: 10;
     border-image-source: linear-gradient(to right, #f5b070, #df5393);
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
   
   }
   .box-youtube{
@@ -149,6 +151,7 @@ body{
   }
   .box span{
       color: #8c93ae;
+      font-size: 16px;
   }
  .box  h3{
       font-size: 62px;
@@ -190,10 +193,11 @@ body{
     font-weight: 800;
 }
 .box .cover{
-    width: 1000px;
-    height: 40px;
+    width: 40px;
+    height: 30px;
     border-radius: 50%;
     background-color:#c22d32 ;
+    margin-right: 10px;
 }
 .box .youtube{
     color: #282b45;
@@ -276,7 +280,7 @@ body{
 .box-overview .youtube{
     color: #282b45;
 }
-.flex-wrap{
+.flex-container{
     margin-bottom: 20px;
     flex: 0 1 23%;
 }
