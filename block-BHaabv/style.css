@@ -1,0 +1,299 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+body{
+    line-height: 1.5;
+    font-size: 24px;
+    font-family: 'Karla', sans-serif;
+}
+.container{
+    max-width: 1360px;
+    margin: 0 auto;
+    padding: 0 32px;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.center{
+    justify-content: center;
+    align-items: center;
+}
+.header{
+    background-color: #212230;
+    padding: 20px;
+    height: 250px;
+}
+ .header h1{
+    color: white;
+    font-size: 28px;
+    font-weight: 700;
+}
+ .header h4{
+    color:#9398b6;
+    font-size: 16px;
+    font-weight: 500;
+}
+.header span{
+    color:#9398b6;
+    font-size: 16px;
+    font-weight: 500;
+}
+/* .mode{
+    co
+} */
+
+  .switch{
+    vertical-align: middle;
+    width: 56px;
+    height: 28px;
+    background:linear-gradient(to right,#4bb2ba,#5dcf97);
+    border-radius: 20px;
+    margin-left: 16px;
+    padding-left: 4px;
+  }
+  .slider{
+    background-color: #262a45;
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+  }
+  .hero{
+
+      position: absolute;
+      top: 129px;
+      width: 100%;
+  }
+  .box{
+      background-color: #262b43;
+      flex:0 1 24%;
+      height: 280px;
+      padding: 40px 0;
+      border-radius: 8px;
+      border-top: 4px solid #2b8ff5 ;
+  }
+  .box-insta{
+    border-top: solid 4px transparent;
+    border-image-slice: 10;
+    border-image-source: linear-gradient(to right, #f5b070, #df5393);
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+  
+  }
+  .box-youtube{
+    border-top: 4px solid#c32c2c;
+  }
+  /* .box a{
+      width: 20px;
+      height: 20px;
+      background-color: #2a8ef4;
+  } */
+  .box .center-move{
+      text-align: center;
+      margin-bottom: 20px;
+  }
+  .box .center-move .insta{
+      color: #c29296;
+  }
+  .box i{
+      color: #369beb;
+      padding-right: 10px;
+  }
+  .box span{
+      color: #8c93ae;
+      font-size: 16px;
+  }
+ .box  h3{
+      font-size: 62px;
+      color: white;
+      text-align: center;
+      margin: -15px 0;
+      font-weight: 700;
+  }
+ .box h4{
+      color: #8c93ae;
+      font-size: 20px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      text-align: center;
+  }
+ .box  h5 i{
+      color: #41988b;
+      vertical-align: bottom;
+      margin-right: -7px;
+  }
+  
+  .box h5{
+    color: #41988b;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 800;
+}
+.box h5 .down{
+    color: #b6555e;
+    margin-right: -7px;
+    vertical-align: inherit;
+}
+.box .negative{
+    color: #b6555e;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 800;
+}
+.box .cover{
+    width: 40px;
+    height: 30px;
+    border-radius: 50%;
+    background-color:#c22d32 ;
+    margin-right: 10px;
+}
+.box .youtube{
+    color: #282b45;
+    padding: 2px;
+}
+/* .box .insta{
+    color: linear-gradient(to right,#b3918f,#774358);
+} */
+
+.heading h1{
+    font-size: 28px;
+    color: white;
+    font-weight: 700;
+}
+.section-overview .adjust-postion{
+    padding-top: 200px;
+    padding-bottom: 20px;
+}
+.section-overview{
+    background-color: #1d2129;
+    padding: 30px;
+}
+.box-overview{
+    background-color: #262b43;
+      height: 180px;
+      padding: 40px 20px;
+      border-radius: 8px;
+      
+}
+.box-overview h4{
+    color:#9398b6;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.box-overview h5{
+    font-size: 32px;
+    color: white;
+    font-weight: 500;
+}
+.box-overview h6{
+    color: #41988b;
+    font-size: 16px;
+    font-weight: 800;
+}
+.box-overview i{
+    
+    color: #369beb;
+    margin-bottom: 20px;
+    
+}
+.box-overview  .insta{
+    color: #c29296;
+}
+.box-overview .youtube{
+    color: #282b45;
+}
+.box-overview h6{
+    margin-top: 30px;
+}
+.box-overview h6 i{
+    color: #41988b;
+    vertical-align: sub;
+
+}
+.box-overview h6 .down{
+    color: #b6555e;
+    vertical-align: top;
+}
+.box-overview .negative{
+    color: #b6555e;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 800;
+}
+.box-overview .insta{
+    color: #c29296;
+}
+.box-overview .youtube{
+    color: #282b45;
+}
+.flex-container{
+    margin-bottom: 20px;
+    flex: 0 1 23%;
+}
+.wrap{
+    flex-wrap: wrap;
+    
+}
+.box-overview .cover{
+    width: 1000px;
+    height: 40px;
+    border-radius: 50%;
+    background-color:#c22d32 ;
+}
+
+  
+
